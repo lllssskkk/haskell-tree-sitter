@@ -49,7 +49,6 @@ library
                      , tree-sitter
   include-dirs:        vendor/tree-sitter-javascript/src
   install-includes:    tree_sitter/parser.h
-                       scanner.h
   c-sources:           vendor/tree-sitter-javascript/src/parser.c
                      , vendor/tree-sitter-javascript/src/scanner.c
 
